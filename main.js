@@ -7,3 +7,11 @@ function setup(){
 
     poseNet.on("pose" , gotposes);
 }
+function modelLoaded(){
+    console.log("Pose net has been initialized");
+}
+function gotposes(results){
+    if(results.length > 0){
+        console.log(results);
+    }
+}

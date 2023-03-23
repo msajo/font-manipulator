@@ -19,7 +19,7 @@
     line-height: 3;
 }
 canvas{
-    border: 5px solid white;
+    border: 5px solid rgb(255, 0, 0);
     border-radius: 20px;
     box-shadow: 5px 5px 5px grey;
 }
