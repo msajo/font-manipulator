@@ -21,12 +21,12 @@ function gotposes(results){
         noseX = results[0].pose.nose.x;
         noseY = results[0].pose.nose.y;
         left_wristX = results[0].pose.leftWrist.x;
-        right_wristX = results[0].pose.rigthWrist.x;
+        right_wristX = results[0].pose.rightWrist.x;
         difference = Math.floor(left_wristX - right_wristX);
     }
 }
 function draw(){
-    background("#ff26db");
+    background("#ff26db");     
     textSize(difference);
     fill("black");
     text("texting",noseX,200);
